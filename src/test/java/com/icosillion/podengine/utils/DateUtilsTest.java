@@ -22,7 +22,7 @@ public class DateUtilsTest {
         Date date = DateUtils.stringToDate(dateTime);
 
         assertNotNull(date);
-        assertEquals("Tue, 03 Mar 2009 15:00:00 +0000", sdf.format(date));
+        assertEquals("Tue, 03 Mar 2009 23:00:00 +0800", sdf.format(date));
     }
 
     @Test
